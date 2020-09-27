@@ -6,7 +6,8 @@ public class MoveTowardsPoint : MonoBehaviour
 	[SerializeField] private Transform _target = default;
 	[SerializeField] private float _speed = 1f;
 	[SerializeField] private Mode _mode = Mode.Better;
-	
+
+
 	private void Update()
 	{
 		switch (_mode)

@@ -429,8 +429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 1604527596}
-  _speed: 2
-  _mode: 0
+  _speed: 1
+  _mode: 1
 --- !u!1 &1103770954
 GameObject:
   m_ObjectHideFlags: 0

@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7127bcb2da4e6d96a890d107206eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceMode: 1
+  _forceMode: 2
   _value: {x: 0, y: 5, z: 0}
 --- !u!54 &1239429401
 Rigidbody:

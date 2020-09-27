@@ -7,5 +7,13 @@ public sealed class ScaleAnimation : MonoBehaviour
 		var x = Mathf.Cos(Time.time) + 0.5f;
 		var y = Mathf.Sin(Time.time + 0.3f) + 0.5f;
 		transform.localScale = new Vector3(x, y, 1f);
+		var position = transform.position;
+		position.x += 0.1f;
+		transform.position = position;
+	}
+
+	public Vector3 Position
+	{
+		get => transform.position;
 	}
 }
